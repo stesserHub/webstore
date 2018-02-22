@@ -1,0 +1,14 @@
+.gallery-container {
+    @include padding($padding);
+}
+
+.product-gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    li {
+        padding-right: 30px;
+    }
+}

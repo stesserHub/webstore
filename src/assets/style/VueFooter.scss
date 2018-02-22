@@ -1,0 +1,115 @@
+
+.so-me {
+    display: inline-block;
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-color: #ffffff;
+    align-content: center;
+
+    .message {
+        display: flex;
+        justify-content: space-evenly;
+
+        .centered {
+            display: block;
+
+            svg {
+                height:30px;
+                width:100px;
+    
+                line {
+                    width: 100px;
+                    stroke-width: 1px;
+                    stroke: #333333;
+                }
+                text {
+                    font-family: 'Roboto', serif;
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    fill: #333333;
+
+                        
+                }
+            }
+        }
+    }
+
+    .so-me-icon {
+        margin-top: 40px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+
+            li {
+                padding-right: 40px;
+                float: left;
+            }
+        }
+    }
+}
+
+
+.vue-footer {
+
+    @include padding($padding);
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    background-color: #333333;
+
+    line-height: 40px;
+
+    div {
+        min-width: 20%;
+    }
+
+    h5 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: semi-bold;
+        color:#ffffff;     
+    }
+
+    li {
+        text-transform: capitalize;
+        
+        font-size: 16px;
+        color:#7b7b7b;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color:#cfcfcf;
+        }
+    }
+
+    .pay-type {
+
+        ul {
+            margin-top: 3.3vw;
+            display: block;
+
+            li {
+                padding-right: 10px;
+                float: left;
+            }
+        }
+    }
+
+    .identity {
+        margin-top: 3vw;
+        p {
+            text-align: center;
+            color:#7b7b7b;
+        }
+    } 
+}

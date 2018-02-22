@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Clothing Article 1",
+        "price": 90.01,
+        "description": "It's very nice!",
+        "img": "http://via.placeholder.com/270x400"
+    },
+    {
+        "id": 2,
+        "title": "Clothing Article 2",
+        "price": 90.02,
+        "description": "It's super soft!",
+        "img": "http://via.placeholder.com/270x400"
+    },
+    {
+        "id": 3,
+        "title": "Clothing Article 3",
+        "price": 90.03,
+        "description": "They fit so well!",
+        "img": "http://via.placeholder.com/270x400"
+    },
+    {
+        "id": 4,
+        "title": "Clothing Article 4",
+        "price": 90.04,
+        "description": "It's super sweet",
+        "img": "http://via.placeholder.com/270x400"
+    }
+]

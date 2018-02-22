@@ -1,0 +1,20 @@
+.campaign-ribbon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #333333;
+
+    background-image: url("http://via.placeholder.com/2380x100");
+    background-position: center;
+
+    h4 {
+        font-family: 'RobotoThin', serif;
+        
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-weight: lighter;
+        color: #ffffff;
+        text-align: center;
+        font-size: 40px;
+    }
+}
